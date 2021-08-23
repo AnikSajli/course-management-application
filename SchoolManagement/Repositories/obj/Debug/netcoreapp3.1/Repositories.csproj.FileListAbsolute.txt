@@ -1,0 +1,30 @@
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Repositories\bin\Debug\netcoreapp3.1\Repositories.deps.json
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Repositories\bin\Debug\netcoreapp3.1\Repositories.runtimeconfig.json
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Repositories\bin\Debug\netcoreapp3.1\Repositories.runtimeconfig.dev.json
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Repositories\bin\Debug\netcoreapp3.1\Repositories.dll
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Repositories\bin\Debug\netcoreapp3.1\Repositories.pdb
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Repositories\bin\Debug\netcoreapp3.1\Model.dll
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Repositories\bin\Debug\netcoreapp3.1\Model.pdb
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Repositories\obj\Debug\netcoreapp3.1\Repositories.csprojAssemblyReference.cache
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfoInputs.cache
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfo.cs
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Repositories\obj\Debug\netcoreapp3.1\Repositories.csproj.CoreCompileInputs.cache
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Repositories\obj\Debug\netcoreapp3.1\Repositories.csproj.CopyComplete
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Repositories\obj\Debug\netcoreapp3.1\Repositories.dll
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Repositories\obj\Debug\netcoreapp3.1\Repositories.pdb
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Repositories\obj\Debug\netcoreapp3.1\Repositories.genruntimeconfig.cache
+E:\Others\Academics\web tech\SchoolManagement\Repositories\bin\Debug\netcoreapp3.1\Repositories.deps.json
+E:\Others\Academics\web tech\SchoolManagement\Repositories\bin\Debug\netcoreapp3.1\Repositories.runtimeconfig.json
+E:\Others\Academics\web tech\SchoolManagement\Repositories\bin\Debug\netcoreapp3.1\Repositories.runtimeconfig.dev.json
+E:\Others\Academics\web tech\SchoolManagement\Repositories\bin\Debug\netcoreapp3.1\Repositories.dll
+E:\Others\Academics\web tech\SchoolManagement\Repositories\bin\Debug\netcoreapp3.1\Repositories.pdb
+E:\Others\Academics\web tech\SchoolManagement\Repositories\bin\Debug\netcoreapp3.1\Model.dll
+E:\Others\Academics\web tech\SchoolManagement\Repositories\bin\Debug\netcoreapp3.1\Model.pdb
+E:\Others\Academics\web tech\SchoolManagement\Repositories\obj\Debug\netcoreapp3.1\Repositories.csprojAssemblyReference.cache
+E:\Others\Academics\web tech\SchoolManagement\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfoInputs.cache
+E:\Others\Academics\web tech\SchoolManagement\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfo.cs
+E:\Others\Academics\web tech\SchoolManagement\Repositories\obj\Debug\netcoreapp3.1\Repositories.csproj.CoreCompileInputs.cache
+E:\Others\Academics\web tech\SchoolManagement\Repositories\obj\Debug\netcoreapp3.1\Repositories.csproj.CopyComplete
+E:\Others\Academics\web tech\SchoolManagement\Repositories\obj\Debug\netcoreapp3.1\Repositories.dll
+E:\Others\Academics\web tech\SchoolManagement\Repositories\obj\Debug\netcoreapp3.1\Repositories.pdb
+E:\Others\Academics\web tech\SchoolManagement\Repositories\obj\Debug\netcoreapp3.1\Repositories.genruntimeconfig.cache
