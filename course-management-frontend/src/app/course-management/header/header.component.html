@@ -1,0 +1,32 @@
+<div style="height: 100%">
+  <mat-toolbar
+  class="toolbar-style deep-indigo-background">
+    <mat-toolbar-row>
+      <div fxLayoutGap="12px" fxLayoutAlign="center">
+        <span style="font-size: 24px">Course Management</span>
+      </div>
+      <span class="menu-spacer"></span>
+      <div fxShow="true" fxHide.lt-md>
+        <a routerLink="/courses" mat-button>COURSES</a>
+        <a routerLink="/teachers-list" mat-button>TEACHERS</a>
+        <a routerLink="/students-list" mat-button>STUDENTS</a>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <mat-sidenav-container fxFlexFill>
+    <mat-sidenav #sidenav>
+      <mat-nav-list
+        class="sidenav-style"
+        fxLayout="column">
+        <a routerLink="/courses" mat-button>COURSES</a>
+        <a routerLink="/teachers" mat-button>TEACHERS</a>
+        <a routerLink="/students" mat-button>STUDENTS</a>
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content fxFlexFill>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
+

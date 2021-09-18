@@ -1,0 +1,27 @@
+<div
+  fxLayoutAlign="center center"
+  fxLayout="column"
+  class="mt-20"
+  fxLayoutGap="25px">
+  <p class="font-size-40 bold" color="primary">Teacher List</p>
+  <button mat-raised-button color="primary" (click)="onAddTeacher()">Add New Teacher</button>
+</div>
+
+<ng-container>
+  <ng-container *ngFor="let teacher of teachersList">
+    <mat-card class="card">
+      <mat-card-header fxLayoutAlign="center center">
+        <mat-card-title>Name: {{teacher.firstName + ' ' + teacher.lastName}}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content fxLayout="column" fxLayoutAlign="center center">
+        <div>Department: {{teacher.department}}</div>
+        <div>Email: {{teacher.email}}</div>
+        <div>Phone Number: {{teacher.phoneNumber}}</div>
+      </mat-card-content>
+      <mat-card-actions fxLayoutAlign="center center" fxLayoutGap="30px">
+        <button mat-raised-button color="primary" (click)="onUpdate(teacher)">Update</button>
+        <button mat-raised-button color="warn" (click)="onDelete(teacher)">Delete</button>
+      </mat-card-actions>
+    </mat-card>
+  </ng-container>
+</ng-container>

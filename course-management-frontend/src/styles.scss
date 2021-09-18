@@ -1,0 +1,81 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.white-text {
+  color: #fff;
+  line-height: normal;
+  font-family: "Poppins",sans-serif;
+}
+
+.light-indigo-text {
+  color: #6f42c1;
+  line-height: 30px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+.font-size-40 {
+  font-size: 40px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.deep-indigo-background {
+  //background-color: #4B0082;
+  background-color:  #2D0A31;
+}
+
+.indigo-txt {
+  color: #4C1E51;
+}
+
+.light-txt {
+  color: #838a9b;
+}
+
+.mat-card-bg {
+  background-color: rgba(0,0,0,0.4);
+}
+
+.img-style {
+  width: 60px;
+  height: 55px;
+  border: 15px solid rgba(255,255,255,0.1);
+  box-shadow: 0 15px 20px rgb(0 0 0 / 70%);
+  border-radius: 50%;
+}
+
+.gray-txt {
+  color: #A5A7C5;
+}
+
+.line-height-normal {
+  line-height: normal;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
