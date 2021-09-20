@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import {HttpClient, HttpParams} from "@angular/common/http";
 import {Observable} from "rxjs";
+import {map} from "rxjs/operators";
+import {TeacherModel} from "../models/teacher-model";
 
 @Injectable({
   providedIn: 'root'
@@ -14,13 +16,18 @@ export class TeacherService {
     return this.http.get(this.localURL + 'Teacher/GetTeachers');
   }
 
+  fetchTeachersListForCourseCreation(): Observable<any> {
+    return this.http.get(this.localURL + 'Teacher/GetTeachers');
+  }
+
   fetchTeacherById(teacherId: string): Observable<any> {
     let params = new HttpParams().set("id", teacherId);
     return this.http.get(this.localURL + 'Teacher/GetTeacherById', {params});
   }
 
-  getTeachersByName(): Observable<any> {
-    return this.http.get(this.localURL + '/Teacher/GetTeacherByName');
+  getTeachersByName(teacherName: any): Observable<any> {
+    let params = new HttpParams().set("name", teacherName);
+    return this.http.get(this.localURL + 'Teacher/GetTeacherByName', {params});
   }
 
   addTeacher(firstname: string, lastname: string, username: string, email: string,

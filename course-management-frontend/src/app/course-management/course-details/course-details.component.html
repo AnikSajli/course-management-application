@@ -1,1 +1,36 @@
-<p>course-details works!</p>
+<div fxLayoutAlign="center start" class="mt-30">
+  <p class="font-size-40 bold">Course Form</p>
+</div>
+
+<div [formGroup]="courseForm">
+  <form fxLayoutAlign="center center" style="margin-top: 24px">
+    <div fxLayout="column" fxFlex="50" fxLayoutAlign="space-around center">
+      <mat-form-field appearance="outline" fxFlex="100">
+        <mat-label>Course Code</mat-label>
+        <input matInput type="text" formControlName="courseCode">
+      </mat-form-field>
+      <mat-form-field appearance="outline" fxFlex="100">
+        <mat-label>Course Name</mat-label>
+        <input matInput type="text" formControlName="courseName">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" fxFlex="100">
+        <mat-label>Credit</mat-label>
+        <input matInput type="number" formControlName="credit">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" fxFlex="100">
+        <mat-label>Teacher's Name</mat-label>
+        <input matInput type="text" formControlName="teacherName">
+      </mat-form-field>
+
+      <button
+        mat-raised-button
+        color="primary"
+        [disabled]="!courseForm.valid"
+        (click)="onSubmit()">Submit</button>
+    </div>
+
+  </form>
+</div>
+

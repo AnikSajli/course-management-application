@@ -4,11 +4,11 @@ import {Routes, RouterModule} from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/courses',
+    redirectTo: '/course-list',
     pathMatch: 'full'
   },
   {
-    path: 'courses',
+    path: 'course-list',
     loadChildren: () =>
       import('./course-management/course-management.module').then(
         (m) => m.CourseManagementModule

@@ -7,21 +7,30 @@
   <button mat-raised-button color="primary" (click)="onAddTeacher()">Add New Teacher</button>
 </div>
 
-<ng-container>
-  <ng-container *ngFor="let teacher of teachersList">
-    <mat-card class="card">
-      <mat-card-header fxLayoutAlign="center center">
-        <mat-card-title>Name: {{teacher.firstName + ' ' + teacher.lastName}}</mat-card-title>
-      </mat-card-header>
-      <mat-card-content fxLayout="column" fxLayoutAlign="center center">
-        <div>Department: {{teacher.department}}</div>
-        <div>Email: {{teacher.email}}</div>
-        <div>Phone Number: {{teacher.phoneNumber}}</div>
-      </mat-card-content>
-      <mat-card-actions fxLayoutAlign="center center" fxLayoutGap="30px">
-        <button mat-raised-button color="primary" (click)="onUpdate(teacher)">Update</button>
-        <button mat-raised-button color="warn" (click)="onDelete(teacher)">Delete</button>
-      </mat-card-actions>
-    </mat-card>
-  </ng-container>
-</ng-container>
+<div *ngFor="let teacher of teachersList"
+     class="card-style">
+  <mat-card fxLayout="row" fxLayoutAlign="space-between center" class="mt-8" >
+    <div>
+      <div class="font-size-18">
+        <span class="bold">Name:</span> {{teacher.fullName}}
+      </div>
+      <div class="font-size-18">
+        <span class="bold">Email:</span> {{teacher.email}}
+      </div>
+    </div>
+
+    <div>
+      <div class="font-size-18">
+        <span class="bold">Department:</span> {{teacher.department}}
+      </div>
+      <div class="font-size-18">
+        <span class="bold">Phone:</span> {{teacher.phoneNumber}}
+      </div>
+    </div>
+
+    <div fxLayout="row" fxLayoutGap="8px">
+      <button mat-raised-button color="primary" (click)="onUpdate(teacher)">Update Teacher</button>
+      <button mat-raised-button color="warn" (click)="onDelete(teacher)">Delete Teacher</button>
+    </div>
+  </mat-card>
+</div>

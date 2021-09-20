@@ -49,6 +49,11 @@ export class StudentService {
 
   deleteStudentById(studentId: string): Observable<any> {
     let params = new HttpParams().set("id", studentId);
-    return this.http.delete(this.localURL + 'Student/DeleteStudent', {params});
+    return this.http.get(this.localURL + 'Student/DeleteStudent', {params});
+  }
+
+  getStudentByName(studentName): Observable<any> {
+    let params = new HttpParams().set("name", studentName);
+    return this.http.get(this.localURL + 'Student/GetStudentByName', {params});
   }
 }

@@ -7,42 +7,30 @@
   <button mat-raised-button color="primary" (click)="onAddStudent()">Add New Student</button>
 </div>
 
-<ng-container>
-  <ng-container *ngFor="let student of studentList">
-    <mat-card class="card">
-      <mat-card-header fxLayoutAlign="center center">
-        <mat-card-title>Name: {{student.firstName + ' ' + student.lastName}}</mat-card-title>
-      </mat-card-header>
-      <mat-card-content fxLayout="column" fxLayoutAlign="center center">
-        <div>Department: {{student.department}}</div>
-        <div>Roll: {{student.roll}}</div>
-      </mat-card-content>
-      <mat-card-actions fxLayoutAlign="center center" fxLayoutGap="30px">
-        <button mat-raised-button color="primary" (click)="onUpdate(student)">Update</button>
-        <button mat-raised-button color="warn" (click)="onDelete(student)">Delete</button>
-      </mat-card-actions>
-    </mat-card>
-  </ng-container>
-</ng-container>
+<div *ngFor="let student of studentList"
+     class="card-style">
+  <mat-card fxLayout="row" fxLayoutAlign="space-between center" class="mt-8" >
+    <div>
+      <div class="font-size-18">
+        <span class="bold">Name:</span> {{student.fullName}}
+      </div>
+      <div class="font-size-18">
+        <span class="bold">Roll No:</span> {{student.roll}}
+      </div>
+    </div>
 
-<!--<ng-container>-->
-<!--  <ng-container fxLayout="row" *ngFor="let student of studentList">-->
-<!--&lt;!&ndash;    <mat-card-header>&ndash;&gt;-->
-<!--&lt;!&ndash;      <div mat-card-avatar class="example-header-image"></div>&ndash;&gt;-->
-<!--&lt;!&ndash;      <mat-card-title>Name: {{student.firstName + ' ' + student.lastName}}</mat-card-title>&ndash;&gt;-->
-<!--&lt;!&ndash;      <mat-card-subtitle>Department: {{student.department}}</mat-card-subtitle>&ndash;&gt;-->
-<!--&lt;!&ndash;      <mat-card-subtitle>Roll: {{student.roll}}</mat-card-subtitle>&ndash;&gt;-->
-<!--&lt;!&ndash;    </mat-card-header>&ndash;&gt;-->
-<!--&lt;!&ndash;-->
-<!--    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">-->
-<!--&ndash;&gt;-->
-<!--<mat-card-content>-->
-<!--      <p> Name: {{student.firstName + student.lastName}}</p>-->
-<!--    </mat-card-content>-->
-<!--    <mat-card-actions fxLayoutGap="20px">-->
-<!--      <button mat-raised-button color="primary" (click)="onUpdate(student)">Update</button>-->
-<!--      <button mat-raised-button color="warn">Delete</button>-->
-<!--    </mat-card-actions>-->
-<!--  </ng-container>-->
-<!--</ng-container>-->
+    <div>
+      <div class="font-size-18">
+        <span class="bold">Department:</span> {{student.department}}
+      </div>
+      <div class="font-size-18">
+        <span class="bold">Phone:</span> {{student.phoneNumber}}
+      </div>
+    </div>
 
+    <div fxLayout="row" fxLayoutGap="8px">
+      <button mat-raised-button color="primary" (click)="onUpdate(student)">Update Student</button>
+      <button mat-raised-button color="warn" (click)="onDelete(student)">Delete Student</button>
+    </div>
+  </mat-card>
+</div>

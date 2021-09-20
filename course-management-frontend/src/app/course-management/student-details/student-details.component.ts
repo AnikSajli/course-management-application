@@ -80,7 +80,7 @@ export class StudentDetailsComponent implements OnInit {
       email, roll, phoneno, dept).subscribe(res => {
       alert('Student Created Successfully!');
     }, error => {
-      alert('Student Creation Failed!')
+      alert(error? error.error : 'Student Creation Failed!')
     });
   }
 

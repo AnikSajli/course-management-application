@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { StudentsListComponent} from './studentsList/studentsList.component';
 import { TeachersListComponent } from './teachers-list/teachers-list.component';
-import { CoursesComponent } from './courses/courses.component';
+import { CourseListComponent } from './course-list/course-list.component';
 import {HeaderComponent} from "./header/header.component";
 import {RouterModule} from "@angular/router";
 import {MatCardModule} from "@angular/material/card";
@@ -20,6 +20,8 @@ import { CourseDetailsComponent } from './course-details/course-details.componen
 import {HttpClientModule} from "@angular/common/http";
 import { StudentDetailsComponent } from './student-details/student-details.component';
 import { TeacherDetailsComponent } from './teacher-details/teacher-details.component';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import { ManageCourseComponent } from './manage-course/manage-course.component';
 
 
 
@@ -27,11 +29,12 @@ import { TeacherDetailsComponent } from './teacher-details/teacher-details.compo
   declarations: [
     StudentsListComponent,
     TeachersListComponent,
-    CoursesComponent,
+    CourseListComponent,
     HeaderComponent,
     CourseDetailsComponent,
     StudentDetailsComponent,
     TeacherDetailsComponent,
+    ManageCourseComponent,
 
   ],
   exports: [
@@ -56,22 +59,23 @@ import { TeacherDetailsComponent } from './teacher-details/teacher-details.compo
     MatDialogModule,
     FlexLayoutModule,
     ReactiveFormsModule,
+    MatAutocompleteModule,
     RouterModule.forChild([
       // {
       //   path: '',
-      //   redirectTo: '/courses',
+      //   redirectTo: '/course-list',
       //   pathMatch: 'full'
       // },
       {
         path: '',
-        component: CoursesComponent,
+        component: CourseListComponent,
       },
       {
-        path: 'courses',
-        component: CoursesComponent,
+        path: 'course-list',
+        component: CourseListComponent,
         children: [
           {
-            path: 'courseDetails',
+            path: 'course-details',
             component: CourseDetailsComponent
           }
         ]
@@ -99,6 +103,18 @@ import { TeacherDetailsComponent } from './teacher-details/teacher-details.compo
       {
         path: 'teacher-update/:id',
         component: TeacherDetailsComponent
+      },
+      {
+        path: 'course-create',
+        component: CourseDetailsComponent
+      },
+      {
+        path: 'course-update/:id',
+        component: CourseDetailsComponent
+      },
+      {
+        path: 'course-manage/:id',
+        component: ManageCourseComponent
       }
     ]),
   ]
