@@ -68,7 +68,7 @@ export class StudentDetailsComponent implements OnInit {
     let department = this.studentForm.get('department').value;
 
     if (this.updateMode) {
-      this.updateS(this.studentDetails.id, firstName, lastName, userName, email, roll, phoneNumber, department);
+      this.updateStudent(this.studentDetails.id, firstName, lastName, userName, email, roll, phoneNumber, department);
     } else {
       this.addStudent( firstName, lastName, userName, email, roll, phoneNumber, department);
     }
