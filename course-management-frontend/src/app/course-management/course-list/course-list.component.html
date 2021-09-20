@@ -1,0 +1,23 @@
+<div
+  fxLayoutAlign="center center"
+  fxLayout="column"
+  class="mt-20"
+  fxLayoutGap="25px">
+  <p class="font-size-40 bold" color="primary">Course List</p>
+  <button mat-raised-button color="primary" (click)="onAddCourse()">Add New Course</button>
+</div>
+
+<div *ngFor="let course of courseList"
+     class="card-style">
+  <mat-card fxLayout="row" fxLayoutAlign="space-between center" class="mt-8" >
+    <div class="font-size-18">
+      <span class="bold">Course Name:</span> {{course.courseName}}
+    </div>
+    <div fxLayout="row" fxLayoutGap="8px">
+      <button mat-raised-button color="primary" (click)="onManageCourse(course)">Manage Course</button>
+      <button mat-raised-button color="primary" (click)="onUpdateCourse(course)">Update Course</button>
+      <button mat-raised-button color="warn" (click)="onDeleteCourse(course)">Delete Course</button>
+    </div>
+  </mat-card>
+</div>
+

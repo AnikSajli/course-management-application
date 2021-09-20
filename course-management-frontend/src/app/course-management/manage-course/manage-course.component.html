@@ -1,0 +1,31 @@
+<p class="font-size-18 bold pl-8 pt-8">Add a student to this course:</p>
+<div fxLayout="row" fxLayoutAlign="space-between center" class="p-8">
+     <mat-form-field appearance="outline" fxFlex="75">
+       <mat-label>Student Name</mat-label>
+       <input matInput type="text" [formControl]="studentNameField">
+     </mat-form-field>
+  <button
+    mat-raised-button
+    color="primary"
+    [disabled]="!studentNameField.valid"
+    (click)="addStudentInCourse()">Add Student</button>
+</div>
+
+<div class="font-size-40 bold" color="primary" fxLayoutAlign="center center">Student List</div>
+<div *ngFor="let student of courseStudentDetailsList"
+     class="card-style">
+  <mat-card fxLayout="row" fxLayoutAlign="space-between center" class="mt-8" >
+    <div>
+      <div class="font-size-18">
+        <span class="bold">Name:</span> {{student.fullName}}
+      </div>
+      <div class="font-size-18">
+        <span class="bold">Roll No:</span> {{student.roll}}
+      </div>
+    </div>
+    <div fxLayout="row" fxLayoutGap="8px">
+      <button mat-raised-button color="warn" (click)="removeStudentFromCourse(student)">Remove Student</button>
+    </div>
+  </mat-card>
+</div>
+

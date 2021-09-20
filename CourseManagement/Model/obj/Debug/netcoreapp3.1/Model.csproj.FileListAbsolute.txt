@@ -1,0 +1,27 @@
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Model\bin\Debug\netcoreapp3.1\Model.deps.json
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Model\bin\Debug\netcoreapp3.1\Model.dll
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Model\bin\Debug\netcoreapp3.1\Model.pdb
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Model\obj\Debug\netcoreapp3.1\Model.csprojAssemblyReference.cache
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Model\obj\Debug\netcoreapp3.1\Model.csproj.CoreCompileInputs.cache
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Model\obj\Debug\netcoreapp3.1\Model.dll
+D:\Mehedi_Data\Desktop\WebTech\SchoolManagement\Model\obj\Debug\netcoreapp3.1\Model.pdb
+E:\Others\Academics\web tech\SchoolManagement\Model\bin\Debug\netcoreapp3.1\Model.deps.json
+E:\Others\Academics\web tech\SchoolManagement\Model\bin\Debug\netcoreapp3.1\Model.dll
+E:\Others\Academics\web tech\SchoolManagement\Model\bin\Debug\netcoreapp3.1\Model.pdb
+E:\Others\Academics\web tech\SchoolManagement\Model\obj\Debug\netcoreapp3.1\Model.csprojAssemblyReference.cache
+E:\Others\Academics\web tech\SchoolManagement\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
+E:\Others\Academics\web tech\SchoolManagement\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
+E:\Others\Academics\web tech\SchoolManagement\Model\obj\Debug\netcoreapp3.1\Model.csproj.CoreCompileInputs.cache
+E:\Others\Academics\web tech\SchoolManagement\Model\obj\Debug\netcoreapp3.1\Model.dll
+E:\Others\Academics\web tech\SchoolManagement\Model\obj\Debug\netcoreapp3.1\Model.pdb
+E:\Others\Academics\git\webtech-crud-project\CourseManagement\Model\bin\Debug\netcoreapp3.1\Model.deps.json
+E:\Others\Academics\git\webtech-crud-project\CourseManagement\Model\bin\Debug\netcoreapp3.1\Model.dll
+E:\Others\Academics\git\webtech-crud-project\CourseManagement\Model\bin\Debug\netcoreapp3.1\Model.pdb
+E:\Others\Academics\git\webtech-crud-project\CourseManagement\Model\obj\Debug\netcoreapp3.1\Model.csprojAssemblyReference.cache
+E:\Others\Academics\git\webtech-crud-project\CourseManagement\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
+E:\Others\Academics\git\webtech-crud-project\CourseManagement\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
+E:\Others\Academics\git\webtech-crud-project\CourseManagement\Model\obj\Debug\netcoreapp3.1\Model.csproj.CoreCompileInputs.cache
+E:\Others\Academics\git\webtech-crud-project\CourseManagement\Model\obj\Debug\netcoreapp3.1\Model.dll
+E:\Others\Academics\git\webtech-crud-project\CourseManagement\Model\obj\Debug\netcoreapp3.1\Model.pdb
