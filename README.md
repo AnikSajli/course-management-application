@@ -1,4 +1,4 @@
-This is a course management application built for managing university courses. 
+This is a course management application built for managing university courses. The application was built with .NET core core and Angular 10.
 Features: 
   - User can create, update, delete and view teacher profile.
   - User can create, update, delete and view student profile.
